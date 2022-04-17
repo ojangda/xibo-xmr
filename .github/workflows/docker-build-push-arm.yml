@@ -3,12 +3,12 @@ name: Docker
 on:
   push:
     branches:
-      - master
+      - develop
     tags:
       - v*
 
 env:
-  IMAGE_NAME: hammady/butt
+  IMAGE_NAME: ojangda/xibo-xmr
 
 jobs:
   docker:
